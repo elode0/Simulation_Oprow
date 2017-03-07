@@ -1,6 +1,8 @@
 package simu;
 
 
+import com.sun.deploy.util.SystemUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -108,5 +110,6 @@ public class Main{
         List<User> listUserJour = new ArrayList<>();
         listUserJour.addAll(creationListJour(nbPersJour, repartBesoin));
         afficherListJour(listUserJour);
+        System.out.println("Fin du programme");
     }
 }
